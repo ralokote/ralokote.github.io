@@ -1,79 +1,51 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
 }
 
 header {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-}
-
-nav .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: #000;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #000;
-    padding: 0.5rem 1rem;
-}
-
-.hero {
-    background-image: url('hero.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.hero h1 {
-    font-size: 3rem;
+    background-color: #333;
     color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
-.search-form {
-    display: flex;
-    background-color: #fff;
-    padding: 1rem;
-    border-radius: 4px;
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
-.search-form input[type="text"],
-.search-form input[type="date"] {
-    border: none;
-    padding: 0.5rem;
+.profile-photo {
+    float: left;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     margin-right: 1rem;
+    border-radius: 50%;
 }
 
-.search-form input[type="submit"] {
-    background-color: #ff5a5f;
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    border-radius: 4px;
+#about-me:after {
+    content: "";
+    display: table;
+    clear: both;
 }
+
+ol {
+    margin-left: 1.5rem;
+}
+
+.testimonial {
+    background-color: #
